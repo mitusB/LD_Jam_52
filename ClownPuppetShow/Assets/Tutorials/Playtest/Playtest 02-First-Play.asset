@@ -19,14 +19,7 @@ MonoBehaviour:
         m_Untranslated: 
       Text:
         m_Untranslated: 
-      m_Summary: 
-      m_Description: 
-      m_InstructionBoxTitle: 
-      m_InstructionText: 
-      m_TutorialButtonText: 
       m_Tutorial: {fileID: 0}
-      m_Icons:
-        m_Items: []
       m_Image: {fileID: 2800000, guid: e1752dd6c13f741b0829ec19348a0be6, type: 3}
       m_Video: {fileID: 32900000, guid: ae2d052958b764e549e2b297dfaafad1, type: 3}
       m_CriteriaCompletion: 0
@@ -40,13 +33,14 @@ MonoBehaviour:
             m_TypeName: UnityEditor.Toolbar, UnityEditor.CoreModule, Version=0.0.0.0,
               Culture=neutral, PublicKeyToken=null
           m_EditorWindowType:
-            m_TypeName: 
+            m_TypeName: UnityEditor.SceneView, UnityEditor.CoreModule, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
           m_AlternateEditorWindowTypes:
             m_Items: []
           m_MaskType: 0
           m_MaskSizeModifier: 0
           m_UnmaskedControls:
-          - m_SelectorMode: 1
+          - m_SelectorMode: 5
             m_GUIContent:
               m_Text: 
               m_Image: {fileID: 0}
@@ -66,6 +60,14 @@ MonoBehaviour:
                 m_AssetObject: {fileID: 0}
                 m_Prefab: {fileID: 0}
               m_FutureObjectReference: {fileID: 0}
+            m_VisualElementClassName: 
+            m_VisualElementName: Play
+            m_VisualElementTypeName: 
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
     - m_Type: 0
       Title:
         m_Untranslated: Enter Play Mode
@@ -75,14 +77,7 @@ MonoBehaviour:
           deeper:\n\n\u2022 The <b>Scene view</b> (in the center of this layout)
           is where you\u2019ll manipulate and change things.\n\n\u2022 When you enter
           Play Mode, the Scene view changes into the <b>Game view</b> for testing."
-      m_Summary: 
-      m_Description: 
-      m_InstructionBoxTitle: 
-      m_InstructionText: 
-      m_TutorialButtonText: 
       m_Tutorial: {fileID: 0}
-      m_Icons:
-        m_Items: []
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
       m_CriteriaCompletion: 0
@@ -102,31 +97,34 @@ MonoBehaviour:
           m_MaskType: 0
           m_MaskSizeModifier: 0
           m_UnmaskedControls: []
-    - m_Type: 1
-      Title:
-        m_Untranslated: 
-      Text:
-        m_Untranslated: Select <b>Play</b> to enter Play Mode.
       m_Summary: 
       m_Description: 
       m_InstructionBoxTitle: 
       m_InstructionText: 
       m_TutorialButtonText: 
+    - m_Type: 1
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: Select <b>Play</b> to enter Play Mode.
       m_Tutorial: {fileID: 0}
-      m_Icons:
-        m_Items: []
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
       m_CriteriaCompletion: 0
       m_Criteria:
         m_Items:
-        - type:
-            m_TypeName: Unity.InteractiveTutorials.PlayModeStateCriterion, Unity.InteractiveTutorials.Core,
+        - Type:
+            m_TypeName: Unity.Tutorials.Core.Editor.PlayModeStateCriterion, Unity.Tutorials.Core.Editor,
               Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-          criterion: {fileID: 114177020261999768}
+          Criterion: {fileID: 114177020261999768}
       m_MaskingSettings:
         m_MaskingEnabled: 0
         m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
   m_CameraSettings:
     m_CameraMode: 0
     m_FocusMode: 0
@@ -147,22 +145,40 @@ MonoBehaviour:
     m_Untranslated: Next
   DoneButton:
     m_Untranslated: Done
-  m_NextButton: 
-  m_DoneButton: 
   m_CompletedSound: {fileID: 8300000, guid: 93fbb109633e844259ea828442bda0cb, type: 3}
-  m_autoAdvance: 1
+  m_AutoAdvance: 1
+  Showing:
+    m_PersistentCalls:
+      m_Calls: []
+  Shown:
+    m_PersistentCalls:
+      m_Calls: []
+  Staying:
+    m_PersistentCalls:
+      m_Calls: []
+  CriteriaValidated:
+    m_PersistentCalls:
+      m_Calls: []
+  MaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  NonMaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
   m_OnBeforePageShown:
     m_PersistentCalls:
       m_Calls: []
   m_OnAfterPageShown:
     m_PersistentCalls:
       m_Calls: []
-  m_OnBeforeTutorialQuit:
-    m_PersistentCalls:
-      m_Calls: []
   m_OnTutorialPageStay:
     m_PersistentCalls:
       m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_NextButton: 
+  m_DoneButton: 
 --- !u!114 &114177020261999768
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -175,4 +191,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 641211c85919e4aceb79a0d364004d75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Completed:
+    m_PersistentCalls:
+      m_Calls: []
+  Invalidated:
+    m_PersistentCalls:
+      m_Calls: []
   m_RequiredPlayModeState: 0

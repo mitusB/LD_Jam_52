@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using Unity.InteractiveTutorials;
+using Unity.Tutorials.Core.Editor;
 using UnityEditor;
 
 namespace Unity.Tutorials
@@ -17,8 +17,8 @@ namespace Unity.Tutorials
         /// <param name="futureObjectReference"></param>
         public void SelectSpawnedGameObject(FutureObjectReference futureObjectReference)
         {
-            if (futureObjectReference.sceneObjectReference == null) { return; }
-            SelectGameObject(futureObjectReference.sceneObjectReference.ReferencedObjectAsGameObject);
+            if (futureObjectReference.SceneObjectReference == null) { return; }
+            SelectGameObject(futureObjectReference.SceneObjectReference.ReferencedObjectAsGameObject);
         }
 
         public void SelectGameObject(GameObject gameObject)
@@ -49,6 +49,11 @@ namespace Unity.Tutorials
         public void SelectRotateTool()
         {
             Tools.current = Tool.Rotate;
+        }
+
+        public void StartTutorial(Tutorial tutorial)
+        {
+            TutorialManager.Instance.StartTutorial(tutorial);
         }
     }
 }

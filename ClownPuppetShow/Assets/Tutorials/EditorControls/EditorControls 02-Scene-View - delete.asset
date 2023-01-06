@@ -19,14 +19,7 @@ MonoBehaviour:
         m_Untranslated: 
       Text:
         m_Untranslated: 
-      m_Summary: 
-      m_Description: 
-      m_InstructionBoxTitle: 
-      m_InstructionText: 
-      m_TutorialButtonText: 
       m_Tutorial: {fileID: 0}
-      m_Icons:
-        m_Items: []
       m_Image: {fileID: 2800000, guid: f3a64c50e0c284cf99bce0ae27d5a8c0, type: 3}
       m_Video: {fileID: 0}
       m_CriteriaCompletion: 0
@@ -57,6 +50,11 @@ MonoBehaviour:
           m_MaskType: 1
           m_MaskSizeModifier: 0
           m_UnmaskedControls: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
     - m_Type: 0
       Title:
         m_Untranslated: Hierarchy and Scene view
@@ -71,14 +69,7 @@ MonoBehaviour:
 
           Click <b>Next</b>
           to continue.'
-      m_Summary: 
-      m_Description: 
-      m_InstructionBoxTitle: 
-      m_InstructionText: 
-      m_TutorialButtonText: 
       m_Tutorial: {fileID: 0}
-      m_Icons:
-        m_Items: []
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
       m_CriteriaCompletion: 0
@@ -87,6 +78,11 @@ MonoBehaviour:
       m_MaskingSettings:
         m_MaskingEnabled: 0
         m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
   m_CameraSettings:
     m_CameraMode: 1
     m_FocusMode: 0
@@ -107,19 +103,37 @@ MonoBehaviour:
     m_Untranslated: Next
   DoneButton:
     m_Untranslated: Done
-  m_NextButton: 
-  m_DoneButton: 
   m_CompletedSound: {fileID: 8300000, guid: 93fbb109633e844259ea828442bda0cb, type: 3}
-  m_autoAdvance: 0
+  m_AutoAdvance: 0
+  Showing:
+    m_PersistentCalls:
+      m_Calls: []
+  Shown:
+    m_PersistentCalls:
+      m_Calls: []
+  Staying:
+    m_PersistentCalls:
+      m_Calls: []
+  CriteriaValidated:
+    m_PersistentCalls:
+      m_Calls: []
+  MaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  NonMaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
   m_OnBeforePageShown:
     m_PersistentCalls:
       m_Calls: []
   m_OnAfterPageShown:
     m_PersistentCalls:
       m_Calls: []
-  m_OnBeforeTutorialQuit:
-    m_PersistentCalls:
-      m_Calls: []
   m_OnTutorialPageStay:
     m_PersistentCalls:
       m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_NextButton: 
+  m_DoneButton: 
