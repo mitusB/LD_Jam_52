@@ -45,6 +45,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Prop_F
+    uniqueID: 2574084661
+    locked: 0
+  - name: Prop
+    uniqueID: 1503786433
+    locked: 0
+  - name: Prop_B
+    uniqueID: 2846412717
+    locked: 0
+  - name: Bird
+    uniqueID: 3790870163
+    locked: 0
   - name: Player
     uniqueID: 1296442321
     locked: 0
