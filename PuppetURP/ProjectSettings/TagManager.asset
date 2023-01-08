@@ -8,6 +8,8 @@ TagManager:
   - Bird
   - Melon
   - Character
+  - Torchblue
+  - Torchred
   layers:
   - Default
   - TransparentFX
