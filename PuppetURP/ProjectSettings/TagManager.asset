@@ -50,6 +50,9 @@ TagManager:
   - name: BackGround
     uniqueID: 2478096881
     locked: 0
+  - name: House
+    uniqueID: 2321122843
+    locked: 0
   - name: Prop_B
     uniqueID: 2846412717
     locked: 0
