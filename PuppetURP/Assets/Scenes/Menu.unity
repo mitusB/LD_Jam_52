@@ -292,13 +292,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 33944189}
+  - component: {fileID: 33944190}
   m_Layer: 0
   m_Name: TextHanger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &33944189
 Transform:
   m_ObjectHideFlags: 0
@@ -318,6 +319,26 @@ Transform:
   m_Father: {fileID: 1062965292}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &33944190
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33944188}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 61781a4ec61529f4f9ea27ad775273ba, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!4 &41254752 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2333351133548739470, guid: 57e8feeb1de098e4ebdbd4ee0e06cbdc, type: 3}
